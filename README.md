@@ -1,4 +1,4 @@
-# holman does dotfiles
+# sills does holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
 
@@ -11,6 +11,27 @@ structured the project accordingly.
 If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+
+## install
+
+Run this:
+
+```sh
+git clone https://github.com/bryansills/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+script/bootstrap
+```
+
+This will symlink the appropriate files in `.dotfiles` to your home directory.
+Everything is configured and tweaked within `~/.dotfiles`.
+
+The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
+which sets up a few paths that'll be different on your particular machine.
+
+`dot` is a simple script that installs some dependencies, sets sane OS X
+defaults, and so on. Tweak this script, and occasionally run `dot` from
+time to time to keep your environment fresh and up-to-date. You can find
+this script in `bin/`.
 
 ## topical
 
