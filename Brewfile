@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'ack'
 brew 'coreutils'
+brew 'grc'
 brew 'openssl'
 brew 'node'
 brew 'readline'
