@@ -53,3 +53,8 @@ brew update
 # Install software
 echo "› $ZSH/script/install"
 $ZSH/script/install
+
+# Copy gradle.properties
+echo "> Copy gradle.properties"
+mkdir $HOME/.gradle
+ln -s $ZSH/android/gradle.properties $HOME/.gradle/gradle.properties
