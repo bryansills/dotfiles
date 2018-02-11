@@ -1,6 +1,4 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
+tap 'caskroom/cask'
 
 brew 'ack'
 brew 'coreutils'
@@ -16,8 +14,10 @@ brew 'rbenv'
 brew 'unrar'
 brew 'wget'
 brew 'yarn'
+brew 'zsh'
 
 cask 'alfred'
+cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'itsycal'

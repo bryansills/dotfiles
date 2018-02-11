@@ -54,6 +54,9 @@ brew update
 echo "› $ZSH/script/install"
 $ZSH/script/install
 
+# Make zsh the default shell
+chsh -s $(which zsh)
+
 # Copy gradle.properties
 echo "> Copy gradle.properties"
 mkdir $HOME/.gradle
