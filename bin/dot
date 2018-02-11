@@ -55,7 +55,7 @@ echo "› $ZSH/script/install"
 $ZSH/script/install
 
 # Make zsh the default shell
-chsh -s $(which zsh)
+chsh -s /bin/zsh
 
 # Copy gradle.properties
 echo "> Copy gradle.properties"
