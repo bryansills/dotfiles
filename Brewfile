@@ -1,4 +1,5 @@
 tap 'caskroom/cask'
+tap 'caskroom/versions'
 
 brew 'ack'
 brew 'coreutils'
