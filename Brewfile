@@ -17,7 +17,6 @@ brew 'wget'
 brew 'yarn'
 brew 'zsh'
 
-cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'itsycal'
