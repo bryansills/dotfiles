@@ -1,5 +1,4 @@
 tap 'caskroom/cask'
-tap 'caskroom/versions'
 tap 'AdoptOpenJDK/openjdk'
 
 brew 'ack'
