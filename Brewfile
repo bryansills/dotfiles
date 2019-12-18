@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/versions'
+tap 'AdoptOpenJDK/openjdk'
 
 brew 'ack'
 brew 'coreutils'
@@ -19,7 +20,6 @@ brew 'zsh'
 
 cask 'iterm2'
 cask 'itsycal'
-cask 'caskroom/versions/java8'
 cask 'licecap'
 cask 'sketch'
 cask 'slack'
