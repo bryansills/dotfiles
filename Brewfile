@@ -14,7 +14,6 @@ brew 'ruby-build'
 brew 'rbenv'
 brew 'unrar'
 brew 'wget'
-brew 'yarn'
 brew 'zsh'
 
 cask 'adoptopenjdk8'
