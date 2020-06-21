@@ -1,4 +1,5 @@
-tap 'caskroom/cask'
+tap 'homebrew/core'
+tap 'homebrew/cask'
 tap 'AdoptOpenJDK/openjdk'
 
 brew 'ack'
@@ -16,7 +17,7 @@ brew 'unrar'
 brew 'wget'
 brew 'zsh'
 
-cask 'adoptopenjdk8'
+cask 'adoptopenjdk11'
 cask 'firefox'
 cask 'iterm2'
 cask 'itsycal'

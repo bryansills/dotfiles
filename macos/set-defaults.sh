@@ -199,6 +199,9 @@ defaults write com.apple.dock autohide-time-modifier -float 0.25
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Reset Launchpad, but keep the desktop wallpaper intact
+find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
+
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
