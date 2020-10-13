@@ -1,4 +1,5 @@
-tap 'caskroom/cask'
+tap 'homebrew/core'
+tap 'homebrew/cask'
 tap 'AdoptOpenJDK/openjdk'
 
 brew 'ack'
@@ -13,8 +14,8 @@ brew 'ruby'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'unrar'
+brew 'watchman'
 brew 'wget'
-brew 'yarn'
 brew 'zsh'
 
 cask 'adoptopenjdk11'
