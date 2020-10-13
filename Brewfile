@@ -17,7 +17,7 @@ brew 'wget'
 brew 'yarn'
 brew 'zsh'
 
-cask 'adoptopenjdk8'
+cask 'adoptopenjdk11'
 cask 'firefox'
 cask 'iterm2'
 cask 'itsycal'
