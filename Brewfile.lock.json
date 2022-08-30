@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/core": {
-        "revision": "b88cf718b3b6cdbeeb8aa49811c81898f4f9ad83"
+        "revision": "bfe03fab12150bb7fc2d8d3590763893e06e348e"
       },
       "homebrew/cask": {
-        "revision": "b3ce752f35c796959f53a597ca24a6097e24a295"
+        "revision": "63ae652861e06f4b1a7358538ad54bd60c6bb93c"
       },
       "mdogan/zulu": {
         "revision": "ad5909dd4c344968318af2909cebbf3164cea50a"
@@ -574,7 +574,7 @@
     },
     "cask": {
       "firefox": {
-        "version": "104.0",
+        "version": "104.0.1",
         "options": {
           "full_name": "firefox"
         }
@@ -658,7 +658,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.10",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "b88cf718b3b6cdbeeb8aa49811c81898f4f9ad83",
+        "Homebrew/homebrew-core": "bfe03fab12150bb7fc2d8d3590763893e06e348e",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.5.1"

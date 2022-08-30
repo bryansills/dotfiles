@@ -20,7 +20,6 @@ brew 'zsh'
 
 cask 'firefox'
 cask 'iterm2'
-cask 'itsycal'
 cask 'jetbrains-toolbox'
 cask 'licecap'
 cask 'postman'
