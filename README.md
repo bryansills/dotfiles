@@ -46,7 +46,15 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
-## install
+## install (or: so you have a new laptop...)
+
+Install Command Line Tools for Xcode
+
+```sh
+xcode-select --install
+```
+
+Make sure you have a working SSH key: [Github Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 Run this:
 
